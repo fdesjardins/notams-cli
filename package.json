@@ -1,9 +1,9 @@
 {
-  "name": "nm",
+  "name": "notams-cli",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "repository": "fdesjardins/nm",
+  "repository": "fdesjardins/notams-cli",
   "author": {
     "name": "Forrest Desjardins",
     "email": "desjardinsfg@gmail.com",
@@ -20,7 +20,9 @@
   ],
   "keywords": [],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "notams": "^1.1.8"
+  },
   "devDependencies": {
     "chai": "^4.0.2",
     "coveralls": "^2.13.1",
